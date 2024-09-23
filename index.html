@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS test-work for ADWIN.Agency</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"></head>
+</head>
+    <body class="font-inter flex min-h-screen min-w-full items-center justify-center p-3">
+
+    <article class="relative flex h-[380px] w-full min-w-[315px] max-w-[440px] flex-col overflow-hidden pb-[50px] shadow-md duration-300">
+        <div class="relative flex-1">
+            <img class="h-full w-full object-cover object-center bg-gray-300" src="/" alt="background image">
+            <button type="button" class="absolute top-3 right-3 text-gray-800 bg-white font-medium rounded-lg px-2 py-1 text-xs border leading-4 border-gray-200 hover:opacity-80">button</button>
+        </div>
+
+        <div class="group absolute -bottom-[130px] left-0 right-0 space-y-3 bg-white px-3 py-4 transition-[bottom] duration-300 ease-[cubic-bezier(0.2,0.9,0.3,1.2)] hover:bottom-0">
+            <div class="flex items-center justify-between">
+                <div class="space-y-1">
+                    <p class="text-sm text-gray-500">Subheader</p>
+                    <h3 class="text-xl font-medium leading-[24.2px] text-gray-800">Header</h3>
+                </div>
+                <p class="text-lg font-medium leading-[21.78px] text-gray-800">Text</p>
+            </div>
+
+            <div class="relative">
+                <div class="absolute left-0 right-0 top-0 pb-3 space-y-1 transition-opacity duration-300 ease-in-out group-hover:invisible group-hover:opacity-50">
+                    <button class="inline-flex h-[46px] w-full items-center justify-center rounded-lg bg-gray-500 py-[14px] text-[15px] leading-[18.15px] text-white hover:opacity-90">Button</button>
+                    <p class="text-center text-xs text-gray-500">Sub text</p>
+                </div>
+
+                <div class="space-y-2 border-t border-gray-200 pt-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <div class="flex justify-between">
+                        <span class="text-gray-500 text-sm">Text</span>
+                        <a href="#" class="text-gray-800 text-sm">Link</a>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-500 text-sm">Text</span>
+                        <a href="#" class="text-gray-800 text-sm">Link</a>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-500 text-sm">Text</span>
+                        <a href="#" class="text-gray-800 text-sm">Link</a>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-500 text-sm">Text</span>
+                        <a href="#" class="text-gray-800 text-sm">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-1">
+                <button class="inline-flex h-[46px] w-full items-center justify-center rounded-lg bg-gray-500 py-[14px] text-[15px] leading-[18.15px] text-white hover:opacity-90">Button</button>
+                <p class="text-center text-xs text-gray-500">Sub text</p>
+            </div>
+        </div>
+    </article>
+</body>
+</html>
